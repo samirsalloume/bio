@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="movie-container">
+        <label>
+           Välj en film här:
+        </label>
+        <select id="movie">
+            <option value="100">Matrix (100 kr/st)</option>
+            <option value="250">Avengers (250 kr/st)</option>
+            <option value="160">Joker (160 kr/st)</option>
+            <option value="91">Lion King (91 kr/st)</option>
+        </select>
+    </div>
+
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>Lediga platser</small>
+        </li>
+        <li>
+            <div class="seat occupied"></div>
+            <small>Upptagna platser</small>
+        </li>
+        <li>
+            <div class="seat selected"></div>
+            <small>Valda platser</small>
+        </li>
+    </ul>
+
+    <div class="container">
+        <div class="screen"></div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+        </div>
+    </div>
+    <p class="text">Du har valt <span id="count">0</span>
+     Platser för pris av   <span id="total">0</span> kr
+    </p> 
+
+    <script src="script.js"></script>
+</body>
+</html>
